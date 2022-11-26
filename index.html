@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>README</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+  body {
+    padding: 2cm; 
+  }
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">DMZ Keys</h1>
+
+<h2 id="toc_1">Keys:</h2>
+
+<h3 id="toc_2">North West Sector</h3>
+
+<p><details>
+    <summary><b>1. Crane Control Room Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> Bottom right of grid B3. This will be the grey door leading into the crane. <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/CraneControlRoomKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>2. Quarry Worker&#39;s Lost Toolbox Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> Top right of grid B4. Can be found by diving into the water between the warehouses and checking underwater. <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/QuarryWorkersLostToolboxKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>3. Kushaak Construction Warehouse Key</b>
+    </summary>
+        <b>How to Get Key:</b> Convenience White Lotus Faction Mission, AI Drop, HVT, Loot<br/>
+        <b>Loot Location:</b> Found at the 2nd Floor of the Kushaak Warehouse. This structure is in the middle of the Al-Safwa Quarry.<br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/KushaakConstructionWarehouseKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>4. Al-Safwa Stone Block Office Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> Middle left of grid C4. The locked room can be found in a rectangular building by the intersection, to the southeast of Al-Safwa Quarry.<br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/AlSafwaStoneBlockOfficeKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>5. Rohan Oil Control Room Locker Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> Look for a hut with a Control Room sign and enter it - you&#39;ll find a staircase leading to an underground complex where a locked locker will be along the hallway.<br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/RohanOilControlRoomLockerKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>6. Rohan Oil North Guard Shack Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> Top middle of grid D3. It will be the 2nd building from the right (map view) on the norther edge of Rohan Oil.<br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/RohanOilNorthGuardShackKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>7. Rohan Oil South Guard Shack Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> Bottom right of grid D3. This is lone guard shack south of the easternmost oil tanks in Rohan Oil.<br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/RohanOilSouthGuardShackKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>8. Taraq Smugglers Office Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> Bottom right of grid D3. This is lone guard shack south of the easternmost oil tanks in Rohan Oil.<br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/TaraqSmugglersOfficeKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>9. Taraq River Supply Shack Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> Top right of grid E2. Can be found inside a shack by the river (north of the small bridge).<br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/TaraqRiverSupplyShackKey.png" alt="photo">
+</details></p>
+
+<h3 id="toc_3">North East Sector</h3>
+
+<p><details>
+    <summary><b>1. Ch 7 Editorial Department Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> Top Floor (11th) Editorial Department Room<br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/Ch7EditorialDepartmentKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>2. Ch 7 Secure Records Room Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        North East of the Main CH 7 building.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/Ch7SecureRecordsKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>3. Special Forces Dead Drop Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Climb on top of the outcrop, locked loot will be under the radio tower.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/SpecialForcesDeadDropKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>4. US Embassy Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Location should be marked on your Tac-Map with a US Embassy icon.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/USEmbassyKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>5. Canal Apartment 10 Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        First Floor - Room 103
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/CanalApartment10Key.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>6. North Canals Info Booth Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        South of Canal Apartment 10, beside the river you will see a small info booth.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/NorthCanalsInfoBoothKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>7. Algae Covered Toolbox Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Dive into the River Canal. Loot will be located underwater.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/AlgaeCoveredToolboxKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>8. Yum Yum Burger Back Room Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Loot is located at the restaurant&#39;s Back Room Storage behind the cashier&#39;s counter.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/YumYumBurgerBackRoomKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>9. Downtown Post Office Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Building will have a Mail icon on your map in Al-Mazrah City. The Post Office building will be covered in the AI enemy&#39;s flag.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/DowntownPostOfficeKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>10. Police Academy Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        The Police Academy has a Police Badge icon on the map and the building will be covered by the AI enemy&#39;s flag as well.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/PoliceAcademyKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>11. Police Academy Server Admin Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Head to the building South East of Yum Yum Burger - Locked room will be located on the first floor.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/PoliceAcademyServerAdminKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>12. Police Academy Locker Room Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Similar to the Server Admin Room, the locked room is also located on the first floor.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/PoliceAcademyLockerRoomKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>13. Hydro Island Computer Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Located at the backroom of the red building next to a pond.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/HydroIslandComputerKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>14. Mawizeh Cell Shop Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Located West of the Marshlands - loot will be scattered on the floor inside the Cell Shop.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/MawizehCellShopKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>15. Mawizeh Slum Discarded Cache Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Located under the bridge, beside the destroyed vehicle.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/MawizehSlumDiscardedCacheKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>16. Mawizeh Power Control Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Location will be a small booth just below the watertower.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/MawizehPowerControlKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>17. Under Freeway East Warehouse Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Located along the highway south of the Police Academy.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/UnderFreewayEastWarehouseKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>18. Ahmed Grocery Store Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Store Office Room &amp; Cache
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/AhmedGroceryStoreKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>19. Far South Eastern Storage Closet Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Duffel Bag Inside Storage Closet
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/FarSouthEasternStorageClosetKey.png" alt="photo">
+</details></p>
+
+<h3 id="toc_4">West Sector</h3>
+
+<p><details>
+    <summary><b>1. Hafid Ship First Mate Cache Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Top left of grid 6B. Can be found at the Ship Bridge Tower, one floor below the ship&#39;s bridge.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/HafidShipFirstMateCacheKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>2. Hafid Ship Bridge Cache Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Top left of grid 6B. Can be found at the top floor of the Ship Bridge Tower.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/HafidShipBridgeCacheKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>3. Longshoreman&#39;s Duffel Bag Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Middle of grid 6B. Found on the concrete platform out at sea, south of the broken metal bridge.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/LongshoremansDuffelBagKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>4. IHTAQ Warehouse Supply Room Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Top left of grid C6. Found inside the largest Hafid Port warehouse (grey roof on map).
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/IHTAQWarehouseSupplyRoomKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>5. Central Sa&#39;id Top Floor Apartment Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Bottom left of grid D4. Can be found inside the Sattiq Cave Complex. This is a restricted area so expect heavy resistance.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/CentralSaIdTopFloorApartmentKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>6. Weapons Repair Kit Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Duffel Bag Inside Storage Closet
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/WeaponsRepairKitKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>7. Cavern Boat Dock Shack Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Head inside the Cavern located at the river bank. Inside you will find a shack at the end of the cavern.    TBA
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/CavernBoatDockShackKey.png" alt="photo">
+</details></p>
+
+<h3 id="toc_5">Zaya Observatory and Mountains Key Locations Map</h3>
+
+<p><details>
+    <summary><b>1. Zaya Radar Dome Key </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Northern part of the Observatory. Locked room will be under the big dome.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/ZayaRadarDomeKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>2. Scientist&#39;s Locker Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Head inside the bunker. Loot will be inside the locker along the corridor.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/ScientistsLockerKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>3. Central Zaya Meeting Room Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Room will be located inside the building at the center of the Observatory.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/CentralZayaMeetingRoomKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>4. South Zaya Scientist Apartment Key </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        2nd floor of the building on the Southern part of the Observatory.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/SouthZayaScientistApartmentKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>5. Mountaintop Spotter Shack Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Top of Highest Mountain in Al Sharim
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/MountaintopSpotterShackKey.png" alt="photo">
+</details></p>
+
+<h3 id="toc_6">South West Sector</h3>
+
+<p><details>
+    <summary><b>1. South Bank Apartment Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Bottom of grid D6. Can be found on the 3rd floor of the apartment next to the hotel building (to the west of the hotel on the map).
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/SouthBankApartmentKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>2. Power Substation Toolbox Key     </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Middle of grid D7. Toolbox can be found next to the large generator.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/PowerSubstationToolboxKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>3. Caretakers House Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Bottom of grid D6. Can be found on the 3rd floor of the apartment next to the hotel building (to the west of the hotel on the map).
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/CaretakersHouseKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>4. Bank of Adal 2nd Story Office Key    </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Bottom left of grid D7 in Sawah Village. Head to the 2nd floor of the National Bank of Adal building (north west of the sunken plaza).
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/BankofAdal2ndStoryOfficeKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>5. Bank of Adal Top Story Office Key </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Bottom of grid D6. Can be found on the 3rd floor of the apartment next to the hotel building (to the west of the hotel on the map).
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/BankofAdalTopStoryOfficeKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>6. Sawah Hotel Room 302</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Go up the 4th floor of the hotel. Room will be beside Hotel Room 303.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/SawahHotelRoom302Key.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>7. Sawah Hotel Room 303 </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Go up the 4th floor of the hotel. Room will be beside Hotel Room 302.       <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/SawahHotelRoom303Key.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>8. Captain’s Cache Key  </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Middle of grid E8. Can be found inside the partially sunk bridge of the ship.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/CaptainsCacheKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>9. Deckhand’s Toolbox Key</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Middle of grid E8. Can be found underwater. Swim down (facing the front of the bridge) and into the doorway leading to the toolbox.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/SouthBankApartmentKey.png" alt="photo">
+</details></p>
+
+<h3 id="toc_7">South Sector</h3>
+
+<p><details>
+    <summary><b>1. Groundskeeping Building  </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Inside the Building with the Satellite Dish Antenna on the Roof
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/GroundskeepingBuildingKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>2. Old Lighthouse Citadel Room  </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Inside Room on the Ground Floor of the Lighthouse
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/OldLightouseCitadelRoomKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>3. Clock Repairs Tool</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Located at the top of the tower.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/ClockRepairToolsKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>4. Al Bagra Munitions Storeroom     </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Underneath the South West building of the fortress. There will be two locked cell doors next to each other.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/AlBagraMunitionsStoreroomKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>5. A.B.F. Anitquities Office    </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        2nd Floor of the Fortress&#39;s palace area. The palace is located on the Southern area with a statue present in it.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/ABFAntiquitiesOfficeKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>6. Al Bagra Officers Quarters</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Top Floor Eastern Wing of the Fortress
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/AlBagraOfficersQuartersKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>7. Al Bagra Barrack     </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Underneath the Eastern building in a room with antiques present.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/AlBagraBarrackKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>8. South Al Bagra Top Floor Bedroom </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Top floor of the building located on the Eastern outskirts of the Fortress.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/SouthAlBagraBarrackTopFloorBedroomKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>9.  B.C. Toolbox</b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Located at the airport&#39;s baggage carousel maintenance area. Crawl through the baggage&#39;s entry chute (where baggages come out from)
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/BCToolboxKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>10. Traveler&#39;s Luggage  </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        2nd Floor of the Southern area of the airport, sitting on the ground next to the row of seats.
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/TravelersLuggageKey.png" alt="photo">
+</details></p>
+
+<p><details>
+    <summary><b>11. Airport Maintenance </b>
+    </summary>
+        <b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
+        <b>Loot Location:</b> 
+        Inside the Yum Yum Burger Restaurant. Located at the kitchen&#39;s back room storage
+        <br />
+        <b>Photo:</b><br/>
+        <img src="https://dmzkey.github.io/photos/AirportMaintenanceKey.png" alt="photo">
+</details></p>
+
+
+
+
+</body>
+
+</html>
