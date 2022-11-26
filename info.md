@@ -8,8 +8,11 @@
 	</summary>
 		<b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
 		<b>Loot Location:</b> Bottom right of grid B3. This will be the grey door leading into the crane. <br />
+		<b>Map:</b><br/>
+		![map photo](./maps/CraneControlRoomKey.png)
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/CraneControlRoomKey.png)
+		![photo](./photos/CraneControlRoomKey.png)
+		
 </details>
 
 <details>
@@ -17,8 +20,10 @@
 	</summary>
 		<b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
 		<b>Loot Location:</b> Top right of grid B4. Can be found by diving into the water between the warehouses and checking underwater. <br />
+		<b>Map:</b><br/>
+		![map photo](./maps/QuarryWorkersLostToolboxKey.png)
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/QuarryWorkersLostToolboxKey.png)
+		![photo](./photos/QuarryWorkersLostToolboxKey.png)
 </details>
 
 <details>
@@ -26,8 +31,10 @@
 	</summary>
 		<b>How to Get Key:</b> Convenience White Lotus Faction Mission, AI Drop, HVT, Loot<br/>
 		<b>Loot Location:</b> Found at the 2nd Floor of the Kushaak Warehouse. This structure is in the middle of the Al-Safwa Quarry.<br />
+		<b>Map:</b><br/>
+		![map photo](./maps/KushaakConstructionWarehouseKey.png)
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/KushaakConstructionWarehouseKey.png)
+		![photo](./photos/KushaakConstructionWarehouseKey.png)
 </details>
 
 <details>
@@ -35,8 +42,10 @@
 	</summary>
 		<b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
 		<b>Loot Location:</b> Middle left of grid C4. The locked room can be found in a rectangular building by the intersection, to the southeast of Al-Safwa Quarry.<br />
+		<b>Map:</b><br/>
+		![map photo](./maps/AlSafwaStoneBlockOfficeKey.png)
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/AlSafwaStoneBlockOfficeKey.png)
+		![photo](./photos/AlSafwaStoneBlockOfficeKey.png)
 </details>
 
 <details>
@@ -44,8 +53,10 @@
 	</summary>
 		<b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
 		<b>Loot Location:</b> Look for a hut with a Control Room sign and enter it - you'll find a staircase leading to an underground complex where a locked locker will be along the hallway.<br />
+		<b>Map:</b><br/>
+		![map photo](./maps/RohanOilControlRoomLockerKey.png)
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/RohanOilControlRoomLockerKey.png)
+		![photo](./photos/RohanOilControlRoomLockerKey.png)
 </details>
 
 <details>
@@ -53,8 +64,10 @@
 	</summary>
 		<b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
 		<b>Loot Location:</b> Top middle of grid D3. It will be the 2nd building from the right (map view) on the norther edge of Rohan Oil.<br />
+		<b>Map:</b><br/>
+		![map photo](./maps/RohanOilNorthGuardShackKey.png)
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/RohanOilNorthGuardShackKey.png)
+		![photo](./photos/RohanOilNorthGuardShackKey.png)
 </details>
 
 <details>
@@ -62,8 +75,10 @@
 	</summary>
 		<b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
 		<b>Loot Location:</b> Bottom right of grid D3. This is lone guard shack south of the easternmost oil tanks in Rohan Oil.<br />
+		<b>Map:</b><br/>
+		![map photo](./maps/RohanOilSouthGuardShackKey.png)
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/RohanOilSouthGuardShackKey.png)
+		![photo](./photos/RohanOilSouthGuardShackKey.png)
 </details>
 
 <details>
@@ -71,8 +86,10 @@
 	</summary>
 		<b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
 		<b>Loot Location:</b> Bottom right of grid D3. This is lone guard shack south of the easternmost oil tanks in Rohan Oil.<br />
+		<b>Map:</b><br/>
+		![map photo](./maps/TaraqSmugglersOfficeKey.png)
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/TaraqSmugglersOfficeKey.png)
+		![photo](./photos/TaraqSmugglersOfficeKey.png)
 </details>
 
 <details>
@@ -80,8 +97,10 @@
 	</summary>
 		<b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
 		<b>Loot Location:</b> Top right of grid E2. Can be found inside a shack by the river (north of the small bridge).<br />
+		<b>Map:</b><br/>
+		![map photo](./maps/TaraqRiverSupplyShackKey.png)
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/TaraqRiverSupplyShackKey.png)
+		![photo](./photos/TaraqRiverSupplyShackKey.png)
 </details>
 
 
@@ -93,7 +112,7 @@
 		<b>How to Get Key:</b> AI Drop, HVT, Loot <br/>
 		<b>Loot Location:</b> Top Floor (11th) Editorial Department Room<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/Ch7EditorialDepartmentKey.png)
+		![photo](./photos/Ch7EditorialDepartmentKey.png)
 </details>
 
 <details>
@@ -104,7 +123,7 @@
 		North East of the Main CH 7 building.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/Ch7SecureRecordsKey.png)
+		![photo](./photos/Ch7SecureRecordsKey.png)
 </details>
 
 <details>
@@ -115,7 +134,7 @@
 		Climb on top of the outcrop, locked loot will be under the radio tower.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/SpecialForcesDeadDropKey.png)
+		![photo](./photos/SpecialForcesDeadDropKey.png)
 </details>
 
 <details>
@@ -126,7 +145,7 @@
 		Location should be marked on your Tac-Map with a US Embassy icon.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/USEmbassyKey.png)
+		![photo](./photos/USEmbassyKey.png)
 </details>
 
 <details>
@@ -137,7 +156,7 @@
 		First Floor - Room 103
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/CanalApartment10Key.png)
+		![photo](./photos/CanalApartment10Key.png)
 </details>
 
 <details>
@@ -148,7 +167,7 @@
 		South of Canal Apartment 10, beside the river you will see a small info booth.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/NorthCanalsInfoBoothKey.png)
+		![photo](./photos/NorthCanalsInfoBoothKey.png)
 </details>
 
 <details>
@@ -159,7 +178,7 @@
 		Dive into the River Canal. Loot will be located underwater.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/AlgaeCoveredToolboxKey.png)
+		![photo](./photos/AlgaeCoveredToolboxKey.png)
 </details>
 
 <details>
@@ -170,7 +189,7 @@
 		Loot is located at the restaurant's Back Room Storage behind the cashier's counter.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/YumYumBurgerBackRoomKey.png)
+		![photo](./photos/YumYumBurgerBackRoomKey.png)
 </details>
 
 <details>
@@ -181,7 +200,7 @@
 		Building will have a Mail icon on your map in Al-Mazrah City. The Post Office building will be covered in the AI enemy's flag.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/DowntownPostOfficeKey.png)
+		![photo](./photos/DowntownPostOfficeKey.png)
 </details>
 
 <details>
@@ -192,7 +211,7 @@
 		The Police Academy has a Police Badge icon on the map and the building will be covered by the AI enemy's flag as well.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/PoliceAcademyKey.png)
+		![photo](./photos/PoliceAcademyKey.png)
 </details>
 
 <details>
@@ -203,7 +222,7 @@
 		Head to the building South East of Yum Yum Burger - Locked room will be located on the first floor.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/PoliceAcademyServerAdminKey.png)
+		![photo](./photos/PoliceAcademyServerAdminKey.png)
 </details>
 
 <details>
@@ -214,7 +233,7 @@
 		Similar to the Server Admin Room, the locked room is also located on the first floor.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/PoliceAcademyLockerRoomKey.png)
+		![photo](./photos/PoliceAcademyLockerRoomKey.png)
 </details>
 
 <details>
@@ -225,7 +244,7 @@
 		Located at the backroom of the red building next to a pond.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/HydroIslandComputerKey.png)
+		![photo](./photos/HydroIslandComputerKey.png)
 </details>
 
 <details>
@@ -236,7 +255,7 @@
 		Located West of the Marshlands - loot will be scattered on the floor inside the Cell Shop.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/MawizehCellShopKey.png)
+		![photo](./photos/MawizehCellShopKey.png)
 </details>
 
 <details>
@@ -247,7 +266,7 @@
 		Located under the bridge, beside the destroyed vehicle.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/MawizehSlumDiscardedCacheKey.png)
+		![photo](./photos/MawizehSlumDiscardedCacheKey.png)
 </details>
 
 <details>
@@ -258,7 +277,7 @@
 		Location will be a small booth just below the watertower.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/MawizehPowerControlKey.png)
+		![photo](./photos/MawizehPowerControlKey.png)
 </details>
 
 <details>
@@ -269,7 +288,7 @@
 		Located along the highway south of the Police Academy.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/UnderFreewayEastWarehouseKey.png)
+		![photo](./photos/UnderFreewayEastWarehouseKey.png)
 </details>
 
 <details>
@@ -280,7 +299,7 @@
 		Store Office Room & Cache
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/AhmedGroceryStoreKey.png)
+		![photo](./photos/AhmedGroceryStoreKey.png)
 </details>
 
 <details>
@@ -291,7 +310,7 @@
 		Duffel Bag Inside Storage Closet
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/FarSouthEasternStorageClosetKey.png)
+		![photo](./photos/FarSouthEasternStorageClosetKey.png)
 </details>
 
 
@@ -305,7 +324,7 @@
 		Top left of grid 6B. Can be found at the Ship Bridge Tower, one floor below the ship's bridge.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/HafidShipFirstMateCacheKey.png)
+		![photo](./photos/HafidShipFirstMateCacheKey.png)
 </details>
 
 <details>
@@ -316,7 +335,7 @@
 		Top left of grid 6B. Can be found at the top floor of the Ship Bridge Tower.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/HafidShipBridgeCacheKey.png)
+		![photo](./photos/HafidShipBridgeCacheKey.png)
 </details>
 
 <details>
@@ -327,7 +346,7 @@
 		Middle of grid 6B. Found on the concrete platform out at sea, south of the broken metal bridge.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/LongshoremansDuffelBagKey.png)
+		![photo](./photos/LongshoremansDuffelBagKey.png)
 </details>
 
 <details>
@@ -338,7 +357,7 @@
 		Top left of grid C6. Found inside the largest Hafid Port warehouse (grey roof on map).
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/IHTAQWarehouseSupplyRoomKey.png)
+		![photo](./photos/IHTAQWarehouseSupplyRoomKey.png)
 </details>
 
 <details>
@@ -349,7 +368,7 @@
 		Bottom left of grid D4. Can be found inside the Sattiq Cave Complex. This is a restricted area so expect heavy resistance.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/CentralSaIdTopFloorApartmentKey.png)
+		![photo](./photos/CentralSaIdTopFloorApartmentKey.png)
 </details>
 
 <details>
@@ -360,7 +379,7 @@
 		Duffel Bag Inside Storage Closet
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/WeaponsRepairKitKey.png)
+		![photo](./photos/WeaponsRepairKitKey.png)
 </details>
 
 <details>
@@ -371,7 +390,7 @@
 		Head inside the Cavern located at the river bank. Inside you will find a shack at the end of the cavern. 	TBA
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/CavernBoatDockShackKey.png)
+		![photo](./photos/CavernBoatDockShackKey.png)
 </details>
 
 ### Zaya Observatory and Mountains Key Locations Map
@@ -384,7 +403,7 @@
 		Northern part of the Observatory. Locked room will be under the big dome.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/ZayaRadarDomeKey.png)
+		![photo](./photos/ZayaRadarDomeKey.png)
 </details>
 
 <details>
@@ -395,7 +414,7 @@
 		Head inside the bunker. Loot will be inside the locker along the corridor.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/ScientistsLockerKey.png)
+		![photo](./photos/ScientistsLockerKey.png)
 </details>
 
 <details>
@@ -406,7 +425,7 @@
 		Room will be located inside the building at the center of the Observatory.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/CentralZayaMeetingRoomKey.png)
+		![photo](./photos/CentralZayaMeetingRoomKey.png)
 </details>
 
 <details>
@@ -417,7 +436,7 @@
 		2nd floor of the building on the Southern part of the Observatory.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/SouthZayaScientistApartmentKey.png)
+		![photo](./photos/SouthZayaScientistApartmentKey.png)
 </details>
 
 <details>
@@ -428,7 +447,7 @@
 		Top of Highest Mountain in Al Sharim
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/MountaintopSpotterShackKey.png)
+		![photo](./photos/MountaintopSpotterShackKey.png)
 </details>
 
 
@@ -447,7 +466,7 @@
 		Bottom of grid D6. Can be found on the 3rd floor of the apartment next to the hotel building (to the west of the hotel on the map).
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/SouthBankApartmentKey.png)
+		![photo](./photos/SouthBankApartmentKey.png)
 </details>
 
 <details>
@@ -458,7 +477,7 @@
 		Middle of grid D7. Toolbox can be found next to the large generator.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/PowerSubstationToolboxKey.png)
+		![photo](./photos/PowerSubstationToolboxKey.png)
 </details>
 
 <details>
@@ -469,7 +488,7 @@
 		Bottom of grid D6. Can be found on the 3rd floor of the apartment next to the hotel building (to the west of the hotel on the map).
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/CaretakersHouseKey.png)
+		![photo](./photos/CaretakersHouseKey.png)
 </details>
 
 <details>
@@ -480,7 +499,7 @@
 		Bottom left of grid D7 in Sawah Village. Head to the 2nd floor of the National Bank of Adal building (north west of the sunken plaza).
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/BankofAdal2ndStoryOfficeKey.png)
+		![photo](./photos/BankofAdal2ndStoryOfficeKey.png)
 </details>
 
 <details>
@@ -491,7 +510,7 @@
 		Bottom of grid D6. Can be found on the 3rd floor of the apartment next to the hotel building (to the west of the hotel on the map).
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/BankofAdalTopStoryOfficeKey.png)
+		![photo](./photos/BankofAdalTopStoryOfficeKey.png)
 </details>
 
 <details>
@@ -502,7 +521,7 @@
 		Go up the 4th floor of the hotel. Room will be beside Hotel Room 303.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/SawahHotelRoom302Key.png)
+		![photo](./photos/SawahHotelRoom302Key.png)
 </details>
 
 <details>
@@ -512,7 +531,7 @@
 		<b>Loot Location:</b> 
 		Go up the 4th floor of the hotel. Room will be beside Hotel Room 302.		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/SawahHotelRoom303Key.png)
+		![photo](./photos/SawahHotelRoom303Key.png)
 </details>
 
 <details>
@@ -523,7 +542,7 @@
 		Middle of grid E8. Can be found inside the partially sunk bridge of the ship.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/CaptainsCacheKey.png)
+		![photo](./photos/CaptainsCacheKey.png)
 </details>
 
 <details>
@@ -534,7 +553,7 @@
 		Middle of grid E8. Can be found underwater. Swim down (facing the front of the bridge) and into the doorway leading to the toolbox.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/SouthBankApartmentKey.png)
+		![photo](./photos/SouthBankApartmentKey.png)
 </details>
 
 ### South Sector
@@ -547,7 +566,7 @@
 		Inside the Building with the Satellite Dish Antenna on the Roof
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/GroundskeepingBuildingKey.png)
+		![photo](./photos/GroundskeepingBuildingKey.png)
 </details>
 
 <details>
@@ -558,7 +577,7 @@
 		Inside Room on the Ground Floor of the Lighthouse
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/OldLightouseCitadelRoomKey.png)
+		![photo](./photos/OldLightouseCitadelRoomKey.png)
 </details>
 
 <details>
@@ -569,7 +588,7 @@
 		Located at the top of the tower.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/ClockRepairToolsKey.png)
+		![photo](./photos/ClockRepairToolsKey.png)
 </details>
 
 <details>
@@ -580,7 +599,7 @@
 		Underneath the South West building of the fortress. There will be two locked cell doors next to each other.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/AlBagraMunitionsStoreroomKey.png)
+		![photo](./photos/AlBagraMunitionsStoreroomKey.png)
 </details>
 
 <details>
@@ -591,7 +610,7 @@
 		2nd Floor of the Fortress's palace area. The palace is located on the Southern area with a statue present in it.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/ABFAntiquitiesOfficeKey.png)
+		![photo](./photos/ABFAntiquitiesOfficeKey.png)
 </details>
 
 <details>
@@ -602,7 +621,7 @@
 		Top Floor Eastern Wing of the Fortress
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/AlBagraOfficersQuartersKey.png)
+		![photo](./photos/AlBagraOfficersQuartersKey.png)
 </details>
 
 <details>
@@ -613,7 +632,7 @@
 		Underneath the Eastern building in a room with antiques present.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/AlBagraBarrackKey.png)
+		![photo](./photos/AlBagraBarrackKey.png)
 </details>
 
 <details>
@@ -624,7 +643,7 @@
 		Top floor of the building located on the Eastern outskirts of the Fortress.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/SouthAlBagraBarrackTopFloorBedroomKey.png)
+		![photo](./photos/SouthAlBagraBarrackTopFloorBedroomKey.png)
 </details>
 
 <details>
@@ -635,7 +654,7 @@
 		Located at the airport's baggage carousel maintenance area. Crawl through the baggage's entry chute (where baggages come out from)
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/BCToolboxKey.png)
+		![photo](./photos/BCToolboxKey.png)
 </details>
 
 <details>
@@ -646,7 +665,7 @@
 		2nd Floor of the Southern area of the airport, sitting on the ground next to the row of seats.
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/TravelersLuggageKey.png)
+		![photo](./photos/TravelersLuggageKey.png)
 </details>
 
 <details>
@@ -657,7 +676,7 @@
 		Inside the Yum Yum Burger Restaurant. Located at the kitchen's back room storage
 		<br />
 		<b>Photo:</b><br/>
-		![photo](https://dmzkey.github.io/photos/AirportMaintenanceKey.png)
+		![photo](./photos/AirportMaintenanceKey.png)
 </details>
 
 
