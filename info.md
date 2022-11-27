@@ -553,7 +553,7 @@
 		<b>Photo:</b><br/>
 		![photo](./photos/CaretakersHouseKey.png)
 </details>
-
+ 
 <details>
 	<summary><b>4. Bank of Adal 2nd Story Office Key 	</b>
 	</summary>
