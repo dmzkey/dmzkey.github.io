@@ -1,4 +1,5 @@
 # DMZKey.com
+Quick and easy guide to Call of Duty Warzone 2.0 DMZ key locations. If you notice a key missing please fill out the following form: [https://forms.gle/Hx4NTEobPFrLzHCe6](https://forms.gle/Hx4NTEobPFrLzHCe6)
 
 ## Keys:
 
